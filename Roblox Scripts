@@ -1,0 +1,21 @@
+local gameId = game.PlaceId
+local BrookhavenGameId = 4924922222
+local mm2GameId = 142823291
+local mvsdGameId = 12355337193
+local AdminrngGameId = 17461365630
+
+if gameId == BrookhavenGameId then
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+elseif gameId == mm2GameId then
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+elseif gameId == mvsdGameId then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/MurderersVsSheriffs.lua"))()
+elseif gameId == AdminrngGameId then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Farx11122/Dupess/main/AdminRNG"))()
+else
+       warn("Not this game support mexd.")
+end
