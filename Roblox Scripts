@@ -17,5 +17,5 @@ elseif gameId == AdminrngGameId then
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Farx11122/Dupess/main/AdminRNG"))()
 else
-       warn("Not this game support mexd.")
+    warn("Not this game support mexd.")
 end
