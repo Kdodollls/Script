@@ -17,7 +17,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts
 elseif gameId == AdminrngGameId then
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Farx11122/Dupess/main/AdminRNG"))()
-else if gameId == PrisonlifeGameId then
+elseif gameId == PrisonlifeGameId then
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
 else
