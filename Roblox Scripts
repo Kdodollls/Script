@@ -4,6 +4,7 @@ local mm2GameId = 142823291
 local mvsdGameId = 12355337193
 local AdminrngGameId = 17461365630
 local PrisonlifeGameId = 155615604
+local PetsGameId = 7903991471
 
 if gameId == BrookhavenGameId then
 
@@ -20,6 +21,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Farx11122/Dupess/main
 elseif gameId == PrisonlifeGameId then
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
+elseif gameId == PetsGameId then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Farx11122/Dupess/main/PetTrading"))()
 else
     warn("Not this game support mexd.")
 end
