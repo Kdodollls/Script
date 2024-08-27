@@ -5,7 +5,6 @@ local mvsdGameId = 12355337193
 local AdminrngGameId = 17461365630
 local PrisonlifeGameId = 155615604
 local PetsGameId = 7903991471
-criminalvssawtGameId = 510444657
 
 if gameId == BrookhavenGameId then
 
@@ -25,9 +24,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/m
 elseif gameId == PetsGameId then
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Farx11122/Dupess/main/PetTrading"))()
-else if gameId == criminalvsswatGameId then
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Kdodollls/ALL-SCRIPT-DON-T-STEAL-BRO/main/Criminal%20Vs%20Swat"))();
 else
     warn("Not this game support mexd.")
 end
